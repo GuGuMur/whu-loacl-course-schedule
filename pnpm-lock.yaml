@@ -24,6 +24,9 @@ importers:
         specifier: ^3.5.24
         version: 3.5.26
     devDependencies:
+      '@vicons/fa':
+        specifier: ^0.13.0
+        version: 0.13.0
       '@vitejs/plugin-vue':
         specifier: ^6.0.1
         version: 6.0.3(rolldown-vite@7.2.5)(vue@3.5.26)
@@ -188,6 +191,9 @@ packages:
 
   '@types/lodash@4.17.21':
     resolution: {integrity: sha512-FOvQ0YPD5NOfPgMzJihoT+Za5pdkDJWcbpuj1DjaKZIr/gxodQjY/uWEFlTNqW2ugXHUiL8lRQgw63dzKHZdeQ==}
+
+  '@vicons/fa@0.13.0':
+    resolution: {integrity: sha512-BFcDewcT78fSn4Y/fOgqlswbLUEW3+qJK2iJiNtgmkMzadBVpDXhNyVKsYM3V2uKPvDUrZT0JCWDWVRCiBXJZA==}
 
   '@vitejs/plugin-vue@6.0.3':
     resolution: {integrity: sha512-TlGPkLFLVOY3T7fZrwdvKpjprR3s4fxRln0ORDo1VQ7HHyxJwTlrjKU3kpVWTlaAjIEuCTokmjkZnr8Tpc925w==}
@@ -584,6 +590,8 @@ snapshots:
       '@types/lodash': 4.17.21
 
   '@types/lodash@4.17.21': {}
+
+  '@vicons/fa@0.13.0': {}
 
   '@vitejs/plugin-vue@6.0.3(rolldown-vite@7.2.5)(vue@3.5.26)':
     dependencies:
